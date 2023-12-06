@@ -170,6 +170,7 @@ iframe{
 }
 
 button{
+    display: block;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #603943;
     color:#ffffff;

@@ -168,6 +168,17 @@ iframe{
     text-align:center;
 }
 
+button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #603943;
+    color:#ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right:auto;
+    margin-left:auto;
+    text-align:center;
+}
+
 
 @media screen and (min-width: 700px) {
     nav li{

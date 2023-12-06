@@ -79,6 +79,7 @@ div{
 
 #about-me-img:hover{
     border: solid 2px palevioletred;
+    opacity: 0.5;
 }
 
 .book{

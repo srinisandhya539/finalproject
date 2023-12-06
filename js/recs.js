@@ -22,14 +22,23 @@ document.querySelector("#everlasting").addEventListener("click", function() {
     window.location.href = "https://www.goodreads.com/book/show/59808042-the-book-of-everlasting-things?ref=nav_sb_ss_1_23";
 });
 
-document.querySelector("#theory").addEventListener("click", function() {
-    console.log("going to external page")
-    window.location.href = "https://www.youtube.com/watch?v=Salz7uGp72c";
+// document.querySelector("#theory").addEventListener("click", function() {
+//     console.log("going to external page")
+//     window.location.href = "https://www.youtube.com/watch?v=Salz7uGp72c";
+// });
+
+// document.querySelector("#ladyvan").addEventListener("click", function() {
+//     console.log("going to external page");
+//     window.location.href = "https://www.youtube.com/watch?v=OA8tMziteZM";
+// });
+
+document.querySelector("button").addEventListener("click", function() {
+    console.log("button has been pressed");
+    window.alert("Click on my photo to read some of my writing! Hint: it's on pages 38 and 54 of the magazine.");
 });
 
-document.querySelector("#ladyvan").addEventListener("click", function() {
-    console.log("going to external page");
-    window.location.href = "https://www.youtube.com/watch?v=OA8tMziteZM";
+document.querySelector("#about-me-img").addEventListener("click", function() {
+    window.location.href = "https://drive.google.com/file/d/1Z0AT-cKXjvWNz66RAbHA1FtZZ9diBFvq/view";
 });
 
 

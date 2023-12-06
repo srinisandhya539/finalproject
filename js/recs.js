@@ -11,7 +11,7 @@ document.querySelector("#midnight").addEventListener("click", function() {
 });
 
 document.querySelector("#anxious").addEventListener("click", function() {
-    window.location.href = "https://www.goodreads.com/book/show/52578297-the-midnight-library?ref=nav_sb_ss_1_9";
+    window.location.href = "https://www.goodreads.com/book/show/53799686-anxious-people?ref=nav_sb_ss_1_14";
 });
 
 document.querySelector("#brotherless").addEventListener("click", function() {

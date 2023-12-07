@@ -25,15 +25,49 @@ document.querySelector("#everlasting").addEventListener("click", function() {
 });
 }
 
-// document.querySelector("#theory").addEventListener("click", function() {
-//     console.log("going to external page")
-//     window.location.href = "https://www.youtube.com/watch?v=Salz7uGp72c";
-// });
+if (window.location.pathname.includes("movies")){
+document.querySelector("#theory").addEventListener("click", function() {
+    console.log("going to external page")
+    window.location.href = "https://www.imdb.com/title/tt2980516/";
+});
 
-// document.querySelector("#ladyvan").addEventListener("click", function() {
-//     console.log("going to external page");
-//     window.location.href = "https://www.youtube.com/watch?v=OA8tMziteZM";
-// });
+document.querySelector("#ladyvan").addEventListener("click", function() {
+    console.log("going to external page");
+    window.location.href = "https://www.imdb.com/title/tt3722070/?ref_=nv_sr_srsg_5_tt_8_nm_0_q_lady%2520in%2520the%2520";
+});
+
+document.querySelector("#ninety-six").addEventListener("click", function(){
+    console.log("going to external page");
+    window.location.href = "https://www.imdb.com/title/tt7019842/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_96";
+
+});
+
+document.querySelector("#piku").addEventListener("click", function(){
+    console.log("going to external page");
+    window.location.href = "https://www.imdb.com/title/tt3767372/?ref_=fn_al_tt_1";
+});
+
+document.querySelector("#dark").addEventListener("click", function(){
+    console.log("going to external page");
+    window.location.href = "https://www.imdb.com/title/tt5753856/?ref_=fn_al_tt_1";
+});
+
+document.querySelector("#brokenwood").addEventListener("click", function(){
+    console.log("going to external page");
+    window.location.href = "https://www.imdb.com/title/tt3640276/?ref_=nv_sr_srsg_0_tt_7_nm_1_q_brokenwood";
+});
+
+document.querySelector("#unforgotten").addEventListener("click", function(){
+    console.log("going to external page");
+    window.location.href = "https://www.imdb.com/title/tt4192812/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_unforg";
+});
+
+document.querySelector("#coffee").addEventListener("click", function(){
+    console.log("going to external page");
+    window.location.href = "https://www.imdb.com/title/tt21908802/?ref_=fn_al_tt_1";
+});
+}
+
 
 if (window.location.pathname.includes("index")){
 document.querySelector("button").addEventListener("click", function() {

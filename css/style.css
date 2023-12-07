@@ -25,6 +25,10 @@ nav li{
     padding: 10px;
 }
 
+.active{
+    font-size: 150%;
+}
+
 ul{
     list-style-type: none;
 }

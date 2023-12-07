@@ -141,6 +141,16 @@ div{
     border-radius:10px;
 }
 
+.movie:hover{
+    border: solid 2px palevioletred;
+    opacity: 0.5;
+}
+
+.container:hover .movie {
+    opacity: 0.3;
+  }
+
+
 p{
     margin: 30px;
     padding: 15px;
